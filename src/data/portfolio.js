@@ -68,10 +68,10 @@ export const projetos = [
 ]
 
 export const habilidades = [
-  { categoria: 'Frontend', itens: ['React', 'Next.js', 'JavaScript', 'HTML5', 'CSS3','Python','Docker'] },
-  { categoria: 'Backend', itens: ['Node.js', 'Java', 'Spring Boot', 'REST APIs','Python','Docker'] },
-  { categoria: 'Banco de dados', itens: ['MongoDB', 'MySQL','PostgreSQL','Oracle'] },
-  { categoria: 'Ferramentas', itens: ['Git', 'GitHub', 'Vite', 'Docker',] },
+  { categoria: 'Frontend', itens: ['React', 'Next.js', 'JavaScript', 'HTML5', 'CSS3'] },
+  { categoria: 'Backend', itens: ['Node.js', 'Java', 'Spring Boot', 'Python', 'REST APIs'] },
+  { categoria: 'Banco de dados', itens: ['MongoDB', 'MySQL', 'PostgreSQL', 'Oracle'] },
+  { categoria: 'Ferramentas', itens: ['Git', 'GitHub', 'Docker', 'Vite'] },
 ]
 
 export const fases = [

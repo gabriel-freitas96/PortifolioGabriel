@@ -42,7 +42,7 @@ function Fase({ fase, numero, proxima, onAbrir, onMapa }) {
         )}
       </nav>
 
-       <p className="dica">← → para correr · ↑ para entrar · ou clique num portal</p>
+       <p className="dica">↓ para sair da fase</p>
     </section>
   )
 }

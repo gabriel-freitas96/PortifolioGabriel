@@ -113,9 +113,7 @@ function Mapa({ posicao, setPosicao, concluidas, onAbrir, onReiniciar }) {
             FASE {posicao + 1} · {faseAtual.subtitulo.toUpperCase()}
           </p>
           <h2>{faseAtual.titulo}</h2>
-          <button className="botao destaque" onClick={entrar} disabled={andando}>
-            ENTRAR NA FASE ▸
-          </button>
+              <p className="dica">← → para correr · ↑ para entrar · ou clique num portal</p>
         </div>
 
         <button

@@ -7,7 +7,7 @@ function Hud({ concluidas, total, onMundo, onAbrirMapa }) {
   return (
     <header className="hud">
       <button className="hud-logo" onClick={onMundo}>
-        GL.EXE
+        GABRIEL.EXE
       </button>
 
       <div className="hud-status">

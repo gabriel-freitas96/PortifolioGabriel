@@ -4,7 +4,7 @@ const CHAVE = 'portfolio-progresso'
 
 function lerSalvo() {
   try {
-    return JSON.parse(localStorage.getItem(CHAVE)) ?? []
+    return JSON.parse(sessionStorage.getItem(CHAVE)) ?? []
   } catch {
     return []
   }
@@ -12,7 +12,7 @@ function lerSalvo() {
 
 function salvar(lista) {
   try {
-    localStorage.setItem(CHAVE, JSON.stringify(lista))
+    sessionStorage.setItem(CHAVE, JSON.stringify(lista))
   } catch {
     return
   }
@@ -35,3 +35,4 @@ export function useProgresso() {
 
   return { concluidas, concluir, reiniciar }
 }
+
